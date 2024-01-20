@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload Form</title>
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="image">Choose Image:</label>
+        <input type="file" id="image" name="image" accept="image/*"><br><br>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br><br>
+        
+        <label for="tags">Tags (separated by commas):</label>
+        <input type="text" id="tags" name="tags"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
