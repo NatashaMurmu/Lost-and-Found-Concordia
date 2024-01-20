@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost and Found Concordia</title>
+    <link rel="stylesheet" href = "styles.css">
+        
+</head>
+<body>
+
+    <header>
+        <h1>Lost and Found Concordia</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Lost Items</a>
+        <a href="#">Found Items</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Concordia University's lost and found!</h2>
+        <p>Please sign up to view the lost items.</p>
+    </section>
+    <div class="container">
+        <form id="signupForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+      
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+      
+            <button type="button" onclick="signup()">Sign Up</button>
+          </form>
+          <p id="message"></p>
+          <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
